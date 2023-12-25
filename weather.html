@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        span{
+            width:100px;
+            height:20px;
+            background-color: pink;
+            border:1px solid black;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <input placeholder="Enter the city name" id="cityName">
+    <button onclick="fetchData()">Click</button><br>
+    <label>Temperature</label>
+    <span id="temp"></span><br>
+    <label>Humidity</label>
+    <span id="humid"></span><br>
+    <label>Wind Speed</label>
+    <span id="ws"></span><br>
+    <label>Feels Like</label>
+    <span id="feels_like"></span>
+    <img id="new_img">
+    <script src="./weather.js"></script>
+</body>
+</html>
